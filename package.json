@@ -1,7 +1,7 @@
 {
   "name": "node-git-properties",
   "version": "1.0.0",
-  "description": "generate git.properties has current git commit hash, tag, branch and time.",
+  "description": "generate git.properties with current git commit hash, tag, branch and time.",
   "main": "index.js",
   "dependencies": {
     "bluebird": "^3.4.6",
@@ -11,9 +11,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+   "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/cslinmiso/node-git-properties.git"
+  },
+  "homepage" : "https://github.com/cslinmiso/node-git-properties",
+  "author" : {
+    "name" : "Trey Lin",
+    "url" : "https://github.com/cslinmiso"
+  },
   "keywords": [
     "git"
   ],
-  "author": "Trey Lin",
   "license": "MIT"
 }
